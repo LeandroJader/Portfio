@@ -16,7 +16,7 @@ const dadosCardGestaoEquipamentos = {
     titulo: 'Gestão de Equipamentos',
     imagem: './assets/gestao-de-equipamentos.png',
     gif: '',
-    urlRepositorio: 'https://github.com/academiadoprogramador-fullstack/gestao-de-equipamentos-2025',
+    urlRepositorio: 'https://github.com/LeandroJader/GestaoDeEquipamentos_web',
     stack: [
         'https://skillicons.dev/icons?i=html&theme=light',
         'https://skillicons.dev/icons?i=css&theme=light',
