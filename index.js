@@ -1,6 +1,6 @@
 const dadosCardControleMedicamentos = {
-    titulo: 'Controle de Medicamentos',
-    imagem: './assets/controle-de-medicamentos.png',
+    titulo: 'Gestão de Equipamentos',
+    imagem: './assets/gestao-de-equipamentos.png',
     gif: 'https://i.imgur.com/SDgwx8m.gif',
     urlRepositorio: 'https://github.com/academiadoprogramador-fullstack/controle-de-medicamentos-2025',
     stack: [
@@ -9,7 +9,7 @@ const dadosCardControleMedicamentos = {
         'https://skillicons.dev/icons?i=cs&theme=light',
         'https://skillicons.dev/icons?i=net&theme=light',
     ],
-    descricao: `O sistema de Controle de Medicamentos apresenta o conceito de gerenciamento de um posto de saúde, com o controle de fornecimento, estoque, funcionários, pacientes e retirada de prescrições — com foco na rastreabilidade das movimentações de estoque.`
+    descricao: `O sistema de Gestão de Equipamentos controla o estoque de um almoxarifado, com a gestão de equipamentos e o registro de chamados de manutenção que eventualmente ocorrem durante o uso dos equipamentos. Também são inclusas informações sobre os fabricantes dos equipamentos para contato de suporte ou compras.`
 };
 
 const dadosCardGestaoEquipamentos = {
@@ -84,7 +84,7 @@ function main() {
     btnSelecionarSegundoCard.addEventListener('click', selecionarSegundoCard);
     btnVerProjeto.addEventListener('click', abrirModalProjeto);
 
-    selecionarPrimeiroCard();
+    selecionarSegundoCard();
 };
 
 document.addEventListener('DOMContentLoaded', main);
